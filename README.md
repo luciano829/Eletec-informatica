@@ -1,6 +1,4 @@
-⚡ Eletec Informática - Segurança Eletrônica & Elétrica
-
-> **Soluções integradas em infraestrutura tecnológica e elétrica em Diadema - SP.**
+⚡ Eletec Informática -⚡ Energia segura, instalações confiáveis e qualidade para sua casa ou comércio.!⚡**
 
 Este repositório contém o código-fonte do site institucional da **Eletec Informática**, focado em apresentar serviços especializados para residências, comércios e indústrias.
 
