@@ -57,7 +57,7 @@
             height: 100vh;
             /* IMAGEM ONLINE (FUNCIONA EM QUALQUER LUGAR) */
             background: linear-gradient(rgba(0, 30, 60, 0.7), rgba(0, 30, 60, 0.7)), 
-                        url('./Eletricista\ feliz\ em\ ação.png');
+                        url('./img/eletricista.png');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -170,6 +170,14 @@
             .nav-links { display: none; }
             .contact-container { grid-template-columns: 1fr; }
         }
+        .service-img{
+    width: 100%;
+    max-width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
     </style>
 </head>
 <body>
@@ -199,22 +207,31 @@
         <div class="carousel-container">
             <div class="carousel-track">
                 <div class="service-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>🛡️ Câmeras de Segurança</h3>
-                    <p>Instalação de câmeras inteligentes (monitoramento pelo celular) e configuração de DVR/NVR em tempo real.</p>
-                </div>
+
+    <img src="./img/img.png.camera.png" class="service-img">
+
+    <h3>🛡️ Câmeras de Segurança</h3>
+    <p>Instalação de câmeras inteligentes (monitoramento pelo celular) e configuração de DVR em tempo real.</p>
+
+</div>
+               <div class="service-card">
+
+    <img src="./img/Interfone moderno na entrada de casa.png" class="service-img">
+
+    <h3>📞 Interfonia</h3>
+    <p>Instalação de interfones simples e vídeo-porteiro com integração tecnológica.</p>
+
+</div>
+               <div class="service-card">
+
+    <img src="./img/img.png" class="service-img">
+
+    <h3>⚡ Elétrica Geral</h3>
+    <p>Residencial / Predial / Industrial e Comercial. Montagem de quadros e manutenção preventiva.</p>
+
+</div>
                 <div class="service-card">
-                    <i class="fas fa-lock"></i>
-                    <h3>📞 Interfonia</h3>
-                    <p>Instalação de interfones simples e vídeo-Porteiro com integração tecnológica.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-bolt"></i>
-                    <h3>⚡ Elétrica Completa</h3>
-                    <p>Residencial /Predial /Industrial e Comercial. Montagem de quadros e manutenção preventiva.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-network-wired"></i>
+                   <img src="./img/Painel de rede com cabos Ethernet.png" class="service-img">
                     <h3>🌐 Cabeamento Estruturado</h3>
                     <p>Organização de racks, redes Wi-Fi de alta velocidade e fiação de rede estável (essencial para home office e empresas)..</p>
                 </div>
